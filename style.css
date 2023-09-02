@@ -37,3 +37,33 @@ section header nav ul li a {
 section header nav ul li a:hover {
     color: rgb(180, 171, 171);
 }
+section .content {
+    position: absolute;
+    top: 55%;
+    left: 75px;
+    transform: translate(0, -50%);
+}
+section .content h1 {
+    font-size: 2.5em;
+    opacity: 0.9;
+}
+section .content p {
+    font-size: 0.9em;
+    width: 55%;
+    opacity: 0.9;
+    font-weight: 400;
+    padding: 15px 0 35px;
+}
+section .content > a {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 8px 28px;
+    font-weight: 500;
+    opacity: 0.9;
+    font-size: 0.95em;
+    transition: 0.3s;
+}
+section .content > a:hover {
+    background: #3d3b3b;
+    border-color: aqua;
+}
